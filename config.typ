@@ -5,8 +5,7 @@
 #let diagnosis = ""
 
 #let block_medicine(name, amount, method) = [
-  #align(left)[#name]
-  #align(right)[#text(size: 10pt)[#amount]]
+  #name #h(1fr) #text(size: 10pt)[#amount]
 
   #text(size: 10pt)[用法: #method]
 ]
