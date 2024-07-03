@@ -42,7 +42,9 @@
 #text(size: 24pt)[*R.*]
 
 #context for i in medicines.get() {
-  i
+  [#i
+  
+  ]
 }
 
 #align(bottom)[
