@@ -25,9 +25,16 @@
 typst compile prescription.typ
 ```
 
+# Environment
+  - Linux: View [Typst on Repology][repology]
+  - macOS: `brew install typst`
+  - Windows: `winget install --id Typst.Typst`
+
 # Requirement
 
 本项目使用了`Noto Sans CJK SC`和`SimSun`两种字体, 编译时请确保安装了这两种字体. 由于typst编译时缺少字体不会报错, 这个问题很容易被忽略.
+
+
 
 # 关于打印
 
