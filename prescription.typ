@@ -25,7 +25,7 @@
   [姓 名：#underline[#name]],
   [性 别：#underline[#gender 性]],
   [年 龄：#underline[#age 岁]],
-  [科 室：#underline[急 诊 科]],
+  [科 室：#underline[#department 科]],
 )
 
 #grid(
@@ -58,8 +58,8 @@
 #grid(
   columns: 2,
   gutter: 1fr,
-  [医 师： #underline[]],
-  [金 额： #underline[]],
+  [医 师： #underline[#doctor]],
+  [金 额： #underline[#amount]],
 )]
 
 #align(bottom)[
