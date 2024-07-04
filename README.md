@@ -26,7 +26,7 @@ typst compile prescription.typ
 ```
 
 # Environment
-  - Linux: View [Typst on Repology][repology]
+  - Linux: View [[Typst on Repology][repology]](https://repology.org/project/typst/versions)
   - macOS: `brew install typst`
   - Windows: `winget install --id Typst.Typst`
 
