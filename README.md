@@ -43,7 +43,7 @@ typst compile prescription.typ
 
 ## 关于打印
 
-打印时以90%缩放打印在一张A4纸上, 在文字边缘向外延伸1～2cm裁切即可.
+A5直接打印即可, A4打印时70%缩放再根据A5的规格裁剪.
 
 ## TODO List
 

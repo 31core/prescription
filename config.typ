@@ -1,7 +1,7 @@
 #let block_medicine(name, amount, method) = [
-  #name #h(1fr) #text(size: 12pt)[#amount]
+  #name #h(1fr) #text(size: 8pt)[#amount]
 
-  #text(size: 10pt, top-edge: 1pt)[用法: #method]
+  #text(size: 7pt, top-edge: 1pt)[用法: #method]
 ]
 
 #let medicines = state("medicines", ())

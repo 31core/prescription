@@ -1,4 +1,6 @@
-#import "@preview/tiaoma:0.2.0"
+#set page("a5", margin: (x: 5%, y: 5%))
+
+#import "@preview/tiaoma:0.2.1"
 #import "config.typ": *
 #include "config.typ"
 
@@ -8,17 +10,17 @@
 
 #place(
   top + right,
-  text(size: 16pt)[
+  text(size: 11pt)[
     #rect(stroke: 0.5pt)[普通]
   ]
 )
 
 #set text(top-edge: 5pt)
 #set text(font: "Noto Sans CJK SC")
-#align(center)[#text(size: 20pt)[#title]]
-#align(center)[#text(size: 26pt)[处 方 笺]]
+#align(center)[#text(size: 15pt)[#title]]
+#align(center)[#text(size: 18pt)[处 方 笺]]
 
-#set text(font: "SimSun", size: 14pt)
+#set text(font: "SimSun", size: 10pt)
 #grid(
   columns: 4,
   gutter: 1fr,
@@ -40,7 +42,7 @@
 
 #line(stroke: 1pt, length: 100%)
 
-#text(size: 24pt)[*R.*]
+#text(size: 20pt)[*R.*]
 
 #context for i in medicines.get() {
   [#i
@@ -74,7 +76,7 @@
 #grid(
   columns: 2,
   gutter: 1fr,
-  [#text(size: 10pt)[
+  [#text(size: 7pt, font: "Noto Sans CJK SC")[
     温馨提示：
     + 本处方当天有效，过期作废；
     + 取药时请仔细核对清单，点齐药品；
