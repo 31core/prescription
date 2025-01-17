@@ -1,0 +1,13 @@
+title: 医院名 # 在这里写医院的名称
+name: 名字 # 写你的名字
+gender: 女 # 性别
+age: 114 # 年龄
+diagnosis: 诊断 # 在这里写诊断
+department: 内分泌 # 在这里写科室，激素类药写内分泌科
+doctor: 某某某 # 编一个医生名字，不要写真的，别害人家
+amount: 514 # 药品的总金额，自己算一下写上
+medicines:
+  - name: 戊酸雌二醇 # 药品全名
+    common-name: 补佳乐 # 商品名
+    amount: 1 盒 # 数量
+    usage: 每日 1 粒 内服 慢性病 # 用法用量
